@@ -15,4 +15,4 @@ jobs:
         run: echo "color=blue" 
 
       - name: Display the color
-        run: echo "The color is ${{ steps.step_one.outputs.color }}"
+        run: echo "The color is ${{ steps.step_one.output.color }}"
